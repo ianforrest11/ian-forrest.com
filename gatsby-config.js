@@ -1,11 +1,12 @@
 module.exports = {
   siteMetadata: {
-    title: `Ian Forrest | Data Science`,
+    title: `Ian Forrest' | Data Science Portfolio'`,
     author: `Ian Forrest`,
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
     social: {
       twitter: `ian_forrest11`,
+      github: `ianforrest11`
     },
   },
   plugins: [
