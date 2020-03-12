@@ -1,7 +1,7 @@
 ---
-title: Sup sup sup 
+title: Project 1
 date: "2019-08-24T22:40:32.169Z"
-description: WHAMMY
+description: Description for Project 1
 ---
 
 Far far away, behind the word mountains, far from the countries Vokalia and
