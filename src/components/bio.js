@@ -57,7 +57,7 @@ const Bio = () => {
         Hello!  My name is  <strong>{author}</strong>.  I'm a music-loving traveller aspiring to become a data scientist!
         {` `}
         <a href={`https://github.com/${social.github}`}>
-          You should follow him on Github!
+          Follow me on Github!
         </a>
       </p>
     </div>
