@@ -1,7 +1,7 @@
 ---
-title: Project 3
+title: Project 2
 date: "2015-05-28T22:40:32.169Z"
-description: Description for Project 3
+description: Description for Project 2
 ---
 
 Data Science Project A

@@ -1,7 +1,7 @@
 ---
-title: Project 2
+title: Project 3
 date: "2015-05-06T23:46:37.121Z"
-description: Description for Project 2
+description: Description for Project 3
 ---
 
 Wow! I love blogging so much already.
