@@ -7,10 +7,10 @@
     "subtitle": "OUR RECENT PROJECTS",
     "home_items": [
       {
-        "name": "GOLDROSE",
-        "image": "images/goldenrose.png",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis eros imperdiet nibh tempor luctus. Maecenas efficitur augue nunc, ac suscipit nisl pretium in. ",
-        "completed": "Summer 2019"
+        "name": "Center For Advanced Defense Studies - Russian Arms Exporters",
+        "image": "images/c4ads.png",
+        "description": "Built Natural Language Processing thing. ",
+        "completed": "January 2020 - March 2020"
       },
       {
         "name": "Hipster",
