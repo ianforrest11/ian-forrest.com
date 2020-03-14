@@ -27,13 +27,6 @@ class ContactPage extends Component {
           </div>
           <div className="contact-grid-item">
             <img
-              src={contactData.twitter_icon}
-              alt="Twitter"
-              className="contact-icon"
-            ></img>
-          </div>
-          <div className="contact-grid-item">
-            <img
               src={contactData.github_icon}
               alt="GitHub"
               className="contact-icon"
@@ -41,7 +34,6 @@ class ContactPage extends Component {
           </div>
           <div className="contact-grid-item">ianforrest11@gmail.com</div>
           <div className="contact-grid-item">1-xxx-xxx-1476</div>
-          <div className="contact-grid-item">@ian_forrest11</div>
           <div className="contact-grid-item">ianforrest11</div>         
         </div>
       </Layout>
