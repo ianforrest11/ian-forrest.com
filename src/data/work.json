@@ -12,10 +12,10 @@
         "completed": "January 2020 - March 2020"
       },
       {
-        "name": "Hipster",
-        "image": "images/hipster.png",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis eros imperdiet nibh tempor luctus. Maecenas efficitur augue nunc, ac suscipit nisl pretium in. ",
-        "completed": "Summer 2019"
+        "name": "Spotify Song Recommender",
+        "image": "images/spotify.png",
+        "description": "Spotify Song Recommender. ",
+        "completed": "November 2019"
       },
       {
         "name": "Hold Fast",
