@@ -8,7 +8,7 @@ class ContactPage extends Component {
       <Layout page={"contact"}>
         <h1 className="title">{contactData.title}</h1>
         <div className="text">
-          We would love to hear from you. Drop us a line.
+          Feel free to contact me at any time!
         </div>
         <div className="contact-grid-container">
           <div className="contact-grid-item">
@@ -32,8 +32,8 @@ class ContactPage extends Component {
               className="contact-icon"
             ></img>
           </div>
-          <div className="contact-grid-item">info@crafty.co</div>
-          <div className="contact-grid-item">1-xxx-xxx-xx67</div>
+          <div className="contact-grid-item">ianforrest11@gmail.com</div>
+          <div className="contact-grid-item">1-xxx-xxx-1476</div>
           <div className="contact-grid-item">@CraftyCo</div>
         </div>
       </Layout>
