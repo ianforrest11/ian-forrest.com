@@ -2,27 +2,27 @@
   {
     "__comments": "These are some comments",
     "title": "Ian Forrest's Data Science Portfolio",
-    "description": "Welcome to our company website",
+    "description": "Welcome to my portfolio",
     "text": "Hi, my name is Ian Forrest!  I'm a New York City based music lover aspiring to enter the data science field",
-    "subtitle": "OUR RECENT PROJECTS",
+    "subtitle": "MY RECENT PROJECTS",
     "home_items": [
       {
-        "name": "Center For Advanced Defense Studies - Russian Arms Exporters",
+        "name": "Russian Arms Exporter Profiler",
         "image": "images/c4ads.png",
-        "description": "Built Natural Language Processing thing. ",
+        "description": "Contracted by Center for Advanced Defense Studies (C4ADS) to build text modeling product to detect unknown Russian arms exporters by analyzing trade data. ",
         "completed": "January 2020 - March 2020"
       },
       {
         "name": "Spotify Song Recommender",
         "image": "images/spotify.png",
-        "description": "Spotify Song Recommender. ",
+        "description": "An API/Machine Learning product to recommend songs for individual Users. ",
         "completed": "November 2019"
       },
       {
-        "name": "Freedom Travel",
-        "image": "images/freedom.png",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis eros imperdiet nibh tempor luctus. Maecenas efficitur augue nunc, ac suscipit nisl pretium in. ",
-        "completed": "Spring 2019"
+        "name": "Twitoff",
+        "image": "images/twitter.png",
+        "description": "A Twitter analysis product designed to showcase text analysis, modeling, database architecture, front-end development, and back-end development skills. ",
+        "completed": "September 2019"
       }
     ]
   }
