@@ -4,6 +4,7 @@ import { lighten, darken } from 'polished';
 import * as t from '../Typography';
 import Colors from '../Colors';
 import LN from '../images/ln.png';
+import GH from '../images/gh.png';
 import Close from '../images/close-popup-grey.png';
 import { media } from '../MediaQueries';
 import Helmet from 'react-helmet';
@@ -94,6 +95,11 @@ class HireMePopup extends React.Component {
             target="_blank"
             href="https://www.linkedin.com/in/ian-forrest-24461070/">
             <img src={LN} alt="Your Linkedin profile" />
+          </Link>
+          <Link primary bold
+            target="_blank"
+            href="https://github.com/ianforrest11">
+            <img src={GH} alt="Your GitHub profile" />
           </Link>
         </ContentWrapper>
       </HireMePopupWrapper>
