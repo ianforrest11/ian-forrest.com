@@ -168,7 +168,10 @@ class Homepage extends React.Component {
               Skills
             </t.H2>
             <t.P align="center" max70 className="who-desc">
-            Python.
+              Python (Numpy, Pandas, Sklearn)
+              SQL, Postgres, Data Analysis
+              Machine Learning (Keras, TensorFlow)
+              AWS (S3, SageMaker, EMR), Flask, Plotly Dash, Heroku
             </t.P>
             <t.H2 primary align="center" bold className="portfolio">
               Portfolio
