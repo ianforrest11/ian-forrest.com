@@ -168,10 +168,50 @@ class Homepage extends React.Component {
               Skills
             </t.H2>
             <t.P align="center" max70 className="who-desc">
-              Python (Numpy, Pandas, Sklearn)
-              SQL, Postgres, Data Analysis
-              Machine Learning (Keras, TensorFlow)
-              AWS (S3, SageMaker, EMR), Flask, Plotly Dash, Heroku
+            <script type="text/javascript">
+              document.write( '<section class=\"bg-primary\" id=\"services\">\n' );
+              document.write( '    <div class=\"container\">\n' );
+              document.write( '        <div class=\"row\">\n' );
+              document.write( '            <div class=\"col-lg-12 text-center\">\n' );
+              document.write( '                <h2 class=\"section-heading\">Skills</h2>\n' );
+              document.write( '                <hr class=\"light\">\n' );
+              document.write( '            </div>\n' );
+              document.write( '        </div>\n' );
+              document.write( '    </div>\n' );
+              document.write( '    <div class=\"container\">\n' );
+              document.write( '        <div class=\"row\">\n' );
+              document.write( '            <div class=\"col-lg-3 col-md-6 text-center\">\n' );
+              document.write( '                <div class=\"service-box\">\n' );
+              document.write( '                    <i class=\"fa fa-4x fa-code wow bounceIn\" style=\"visibility: visible; animation-name: bounceIn;\"></i>\n' );
+              document.write( '                    <h3>Python (Numpy, pandas, sklearn)</h3>\n' );
+              document.write( '                    <p class=\"text-faded\"></p>\n' );
+              document.write( '                </div>\n' );
+              document.write( '            </div>\n' );
+              document.write( '            <div class=\"col-lg-3 col-md-6 text-center\">\n' );
+              document.write( '                <div class=\"service-box\">\n' );
+              document.write( '                    <i class=\"fa fa-4x fa-database wow bounceIn\" data-wow-delay=\".1s\" style=\"visibility: visible; animation-delay: 0.1s; animation-name: bounceIn;\"></i>\n' );
+              document.write( '                    <h3>SQL, Postgres, Data Analysis</h3>\n' );
+              document.write( '                    <p class=\"text-faded\"></p>\n' );
+              document.write( '                </div>\n' );
+              document.write( '            </div>\n' );
+              document.write( '            <div class=\"col-lg-3 col-md-6 text-center\">\n' );
+              document.write( '                <div class=\"service-box\">\n' );
+              document.write( '                    <i class=\"fa fa-4x fa-code wow bounceIn\" data-wow-delay=\".2s\" style=\"visibility: visible; animation-delay: 0.2s; animation-name: bounceIn;\"></i>\n' );
+              document.write( '                    <h3>Machine Learning (keras, tensorflow)</h3>\n' );
+              document.write( '                    <p class=\"text-faded\"></p>\n' );
+              document.write( '                </div>\n' );
+              document.write( '            </div>\n' );
+              document.write( '            <div class=\"col-lg-3 col-md-6 text-center\">\n' );
+              document.write( '                <div class=\"service-box\">\n' );
+              document.write( '                    <i class=\"fa fa-4x fa-flask wow bounceIn\" data-wow-delay=\".3s\" style=\"visibility: visible; animation-delay: 0.3s; animation-name: bounceIn;\"></i>\n' );
+              document.write( '                    <h3>AWS(Elastic Beanstalk, Sagemaker, EC2, S3), Flask, Plotly Dash, Heroku</h3>\n' );
+              document.write( '                    <p class=\"text-faded\"></p>\n' );
+              document.write( '                </div>\n' );
+              document.write( '            </div>\n' );
+              document.write( '        </div>\n' );
+              document.write( '    </div>\n' );
+              document.write( '</section>' );
+            </script>
             </t.P>
             <t.H2 primary align="center" bold className="portfolio">
               Portfolio
