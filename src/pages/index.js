@@ -191,8 +191,8 @@ class Homepage extends React.Component {
                 <t.P>Dolor sit amet</t.P>
                 <LinkButton primary bold className="link" as="a"
                   target="_blank"
-                  href="#">
-                  Lorem ipsum
+                  href="https://github.com/ianforrest11/russian_arms_exporters">
+                  Russian Arms Exporter Profiler
                 </LinkButton>
               </DivWrapper>
               <DivWrapper>
