@@ -160,7 +160,7 @@ class Homepage extends React.Component {
               Lorem ipsum
             </t.H2>
             <t.P align="center" max70 className="who-desc">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Studied at Lambda School since June 2019.
             </t.P>
             <t.H2 primary align="center" bold className="portfolio">
               Portfolio
