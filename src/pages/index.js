@@ -17,6 +17,8 @@ import Python from "../images/python.png";
 import Db from "../images/db.png";
 import ML from "../images/ml.png";
 import AWS from "../images/aws.png";
+import SR from "../images/saferoutes.png";
+import Twitter from "../images/twitter.png";
 
 const AboveFold = styled.div`
   ${Mixins.aboveFoldMixin}
@@ -287,21 +289,34 @@ class Homepage extends React.Component {
           <Block>
             <BlockContent>
               <DivWrapper>
-                <ItemImage src={Placeholder} alt="Placeholder title" />
+                <ItemImage src={SR} alt="Placeholder title" />
               </DivWrapper>
               <DivWrapper>
                 <t.H2 bold>Safe Routes</t.H2>
-                <t.P>Lorem ipsum</t.P>
-                <t.P>Dolor sit amet</t.P>
+                <t.P>
+                  Group Project - Combined With Front End, Back End, Etc.
+                </t.P>
+                <t.P>Completed in four days</t.P>
                 <LinkButton
                   primary
                   bold
                   className="link"
                   as="a"
                   target="_blank"
-                  href="#"
+                  href="https://saferoute-visual.herokuapp.com/"
                 >
-                  Lorem ipsum
+                  Link to statistical analysis
+                </LinkButton>
+                <br></br>
+                <LinkButton
+                  primary
+                  bold
+                  className="link"
+                  as="a"
+                  target="_blank"
+                  href="https://fesafe-routes.acemouty.now.sh/routes"
+                >
+                  Link to main project
                 </LinkButton>
               </DivWrapper>
             </BlockContent>
@@ -320,11 +335,11 @@ class Homepage extends React.Component {
                   target="_blank"
                   href="#"
                 >
-                  Lorem ipsum
+                  TwitOff!
                 </LinkButton>
               </DivWrapper>
               <DivWrapper>
-                <ItemImage src={Placeholder} alt="Placeholder title" />
+                <ItemImage src={Twitter} alt="Placeholder title" />
               </DivWrapper>
             </BlockContent>
           </Block>
