@@ -1,12 +1,12 @@
-import React from 'react';
-import styled from 'styled-components';
-import * as Mixins from '../Mixins';
-import * as t from '../Typography';
-import Layout, { Content } from '../components/Layout';
-import HireMePopup from '../components/HireMePopup.js';
-import { media } from '../MediaQueries';
-import Img from 'gatsby-image';
-import { graphql } from 'gatsby';
+import React from "react";
+import styled from "styled-components";
+import * as Mixins from "../Mixins";
+import * as t from "../Typography";
+import Layout, { Content } from "../components/Layout";
+import HireMePopup from "../components/HireMePopup.js";
+import { media } from "../MediaQueries";
+import Img from "gatsby-image";
+import { graphql } from "gatsby";
 
 const AboveFold = styled.div`
   ${Mixins.aboveFoldMixin}
@@ -86,15 +86,37 @@ class AboutMe extends React.Component {
             <t.H1 green align="center">
               Ian Forrest - Data Scientist
             </t.H1>
-            <t.LargeP align="center" max70>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            <t.LargeP align="left" max70>
+              I'm Ian, a music-loving workout enthusiast aspiring to be a data
+              scientist! Currently, I attend Lambda School as a student.
+            </t.LargeP>
+            <t.LargeP align="left" max70>
+              My specialties include data exploration & visualization,
+              statistical analysis, predictive modeling, data engineering, deep
+              learning, neural networks, data analysis, linear and multivariate
+              regressions, predictive analytics, big data analytics, natural
+              language processing (NLP), data mining, data wrangling, web
+              scraping, ETL pipelines, API deployment, model tuning, unit tests,
+              and agile development (CI/CD), quickly learning new skills,
+              working well under pressure, leadership.
+            </t.LargeP>
+            <t.LargeP align="left" max70>
+              To view my latest projects, please scroll down to the bottom of
+              the homepage.
             </t.LargeP>
           </AboveFold>
           <Content>
-            <Img fluid={data.avatarAbout.childImageSharp.fluid} alt="Name Surname" className="avatar" />
+            <Img
+              fluid={data.avatarAbout.childImageSharp.fluid}
+              alt="Name Surname"
+              className="avatar"
+            />
           </Content>
         </Layout>
-        <HireMePopup open={openHireMePopup} handleClose={this.handleRequestDemoClose} />
+        <HireMePopup
+          open={openHireMePopup}
+          handleClose={this.handleRequestDemoClose}
+        />
       </AboutMeWrapper>
     );
   }
