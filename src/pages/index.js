@@ -206,7 +206,7 @@ class Homepage extends React.Component {
                 <ItemImage src={Placeholder} alt="Placeholder title" />
               </DivWrapper>
               <DivWrapper>
-                <t.H2 bold>Placeholder website</t.H2>
+                <t.H2 bold>Safe Routes</t.H2>
                 <t.P>Lorem ipsum</t.P>
                 <t.P>Dolor sit amet</t.P>
                 <LinkButton primary bold className="link" as="a"
@@ -235,9 +235,9 @@ class Homepage extends React.Component {
             </BlockContent>
           </Block>
           <WorkWithMe>
-            <t.H1 green>Get in touch with me</t.H1>
+            <t.H1 green>Get in touch</t.H1>
             <t.LargeP>
-              Fancy working with me? Contact me for more info!{' '}
+              Please reach out for more info!{' '}
             </t.LargeP>
             <HireMe onClick={this.openContactPopup} book>
               Contact me
