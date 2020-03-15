@@ -1,13 +1,14 @@
-import React from 'react';
-import styled from 'styled-components';
-import { lighten, darken } from 'polished';
-import * as t from '../Typography';
-import Colors from '../Colors';
-import LN from '../images/ln.png';
-import GH from '../images/gh.png';
-import Close from '../images/close-popup-grey.png';
-import { media } from '../MediaQueries';
-import Helmet from 'react-helmet';
+import React from "react";
+import styled from "styled-components";
+import { lighten, darken } from "polished";
+import * as t from "../Typography";
+import Colors from "../Colors";
+import LN from "../images/ln.png";
+import GH from "../images/gh.png";
+import GM from "../images/gmail.png";
+import Close from "../images/close-popup-grey.png";
+import { media } from "../MediaQueries";
+import Helmet from "react-helmet";
 
 const HireMePopupWrapper = styled.div`
   position: fixed;
@@ -61,7 +62,7 @@ const Burger = styled.div`
   color: ${props => props.scrolled && Colors.darkest};
   &:hover {
     ${props =>
-      props.scrolled || props.theme === 'white'
+      props.scrolled || props.theme === "white"
         ? lighten(0.3, Colors.darkest)
         : darken(0.1, Colors.white)};
     cursor: pointer;
@@ -80,7 +81,7 @@ class HireMePopup extends React.Component {
 
   render() {
     const { open } = this.props;
-    const overflow = open ? 'hidden' : 'auto';
+    const overflow = open ? "hidden" : "auto";
     return (
       <HireMePopupWrapper open={open}>
         <Helmet>
@@ -91,15 +92,29 @@ class HireMePopup extends React.Component {
             <img alt="Close popup" src={Close} />
           </Burger>
           <t.H3>Contact me on</t.H3>
-          <Link primary bold
+          <Link
+            primary
+            bold
             target="_blank"
-            href="https://www.linkedin.com/in/ian-forrest-24461070/">
+            href="https://www.linkedin.com/in/ian-forrest-24461070/"
+          >
             <img src={LN} alt="Your Linkedin profile" />
           </Link>
-          <Link primary bold
+          <Link
+            primary
+            bold
             target="_blank"
-            href="https://github.com/ianforrest11">
+            href="https://github.com/ianforrest11"
+          >
             <img src={GH} alt="Your GitHub profile" />
+          </Link>
+          <Link
+            primary
+            bold
+            target="_blank"
+            href="mailto:ianforrest11@gmail.com"
+          >
+            <img src={GM} alt="Your email address" />
           </Link>
         </ContentWrapper>
       </HireMePopupWrapper>

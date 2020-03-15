@@ -13,11 +13,10 @@ import Colors from "../Colors";
 import Img from "gatsby-image";
 import { graphql } from "gatsby";
 import { darken } from "polished";
-import Github from "../images/gh.png";
-import Linkedin from "../images/ln.png";
-import Avatar from "../images/avatar.jpg";
-// import "bootstrap/dist/css/bootstrap.min.css";
-// import { Container, Row, Col } from "react-bootstrap"
+import Python from "../images/python.png";
+import Db from "../images/db.png";
+import ML from "../images/ml.png";
+import AWS from "../images/aws.png";
 
 const AboveFold = styled.div`
   ${Mixins.aboveFoldMixin}
@@ -212,25 +211,25 @@ class Homepage extends React.Component {
             <t.P align="center" max70 className="who-desc">
               <DivGrid>
                 <DivGridItem>
-                  <ItemImage src={Github} alt="Placeholder title" />
-                  JavaScript
+                  <ItemImage src={Python} alt="Placeholder title" />
+                  Python (Numpy, pandas, sklearn, Tfidf)
                 </DivGridItem>
 
                 <DivGridItem>
-                  <ItemImage src={Linkedin} alt="Placeholder title" />
-                  React.js
-                </DivGridItem>
-
-                <DivGridItem>
-                  {" "}
-                  <ItemImage src={Avatar} alt="Placeholder title" />
-                  HTML5
+                  <ItemImage src={Db} alt="Placeholder title" />
+                  SQL, Postgres, Data Analysis, Data Visualization
                 </DivGridItem>
 
                 <DivGridItem>
                   {" "}
-                  <ItemImage src={Github} alt="Placeholder title" />
-                  CSS3
+                  <ItemImage src={ML} alt="Placeholder title" />
+                  Machine Learning (Keras, TensorFlow)
+                </DivGridItem>
+
+                <DivGridItem>
+                  {" "}
+                  <ItemImage src={AWS} alt="Placeholder title" />
+                  AWS (Sagemaker, EMR, S3), Flask, Plotly Dash, Heroku
                 </DivGridItem>
               </DivGrid>
             </t.P>
