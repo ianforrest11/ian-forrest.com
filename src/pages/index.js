@@ -4,6 +4,7 @@ import * as Mixins from '../Mixins';
 import * as t from '../Typography';
 import Layout, { Content } from '../components/Layout';
 import Placeholder from '../images/placeholder.png';
+import C4ADS from '../images/c4ads.png'
 import { HireMe, LinkButton } from '../components/Button.js';
 import HireMePopup from '../components/HireMePopup.js';
 import { media } from '../MediaQueries';
@@ -169,7 +170,7 @@ class Homepage extends React.Component {
           <Block>
             <BlockContent>
               <DivWrapper>
-                <ItemImage src={Placeholder} alt="Placeholder title" />
+                <ItemImage src={C4ADS} alt="Placeholder title" />
               </DivWrapper>
               <DivWrapper>
                 <t.H2 bold>Russian Arms Exporter Profiler</t.H2>
