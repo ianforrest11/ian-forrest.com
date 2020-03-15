@@ -13,6 +13,7 @@ import Colors from '../Colors';
 import Img from 'gatsby-image';
 import { graphql } from 'gatsby';
 import { darken } from 'polished';
+import { Container, Row, Col } from "react-bootstrap"
 
 const AboveFold = styled.div`
   ${Mixins.aboveFoldMixin}
@@ -168,10 +169,33 @@ class Homepage extends React.Component {
               Skills
             </t.H2>
             <t.P align="center" max70 className="who-desc">
-              Python (Numpy, Pandas, Sklearn)
-              SQL, Postgres, Data Analysis
-              Machine Learning (Keras, TensorFlow)
-              AWS (S3, SageMaker, EMR), Flask, Plotly Dash,
+            <Container className="content" fluid>
+              <h3>Cool Recent Tech I use:</h3>
+              <br />
+              <Row className="text-center tech_icons">
+                <Col>
+                  <i className="fab fa-js hover_effect" />
+                  <br />
+                  <span>JavaScript</span>
+                </Col>
+                <Col>
+                  <i className="fab fa-react hover_effect" />
+                  <br />
+                  <span>React.js</span>
+                </Col>
+                <Col>
+                  <i className="fab fa-html5 hover_effect" />
+                  <br />
+                  <span>HTML5</span>
+                </Col>
+                <Col>
+                  <i className="fab fa-css3 hover_effect" />
+                  <br />
+                  <span>CSS3</span>
+                </Col>
+              </Row>
+              <br />
+            </Container>
             </t.P>
             <t.H2 primary align="center" bold className="portfolio">
               Portfolio
