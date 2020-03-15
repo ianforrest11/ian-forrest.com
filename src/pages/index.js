@@ -13,7 +13,8 @@ import Colors from '../Colors';
 import Img from 'gatsby-image';
 import { graphql } from 'gatsby';
 import { darken } from 'polished';
-// import { Container, Row, Col } from "react-bootstrap"
+import React from "react";
+import { Container, Row, Col } from "react-bootstrap"
 
 const AboveFold = styled.div`
   ${Mixins.aboveFoldMixin}
