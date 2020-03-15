@@ -173,12 +173,12 @@ class Homepage extends React.Component {
               </DivWrapper>
               <DivWrapper>
                 <t.H2 bold>Russian Arms Exporter Profiler</t.H2>
-                <t.P>Lorem ipsum</t.P>
-                <t.P>Dolor sit amet</t.P>
+                <t.P>Center For Advanced Defense Studies</t.P>
+                <t.P>Contracted Project</t.P>
                 <LinkButton primary bold className="link" as="a"
                   target="_blank"
-                  href="#">
-                  Lorem ipsum
+                  href="https://github.com/ianforrest11/russian_arms_exporters">
+                  Russian Arms Exporter Profiler
                 </LinkButton>
               </DivWrapper>
             </BlockContent>
@@ -191,8 +191,8 @@ class Homepage extends React.Component {
                 <t.P>Dolor sit amet</t.P>
                 <LinkButton primary bold className="link" as="a"
                   target="_blank"
-                  href="https://github.com/ianforrest11/russian_arms_exporters">
-                  Russian Arms Exporter Profiler
+                  href="#">
+                  Spotify Song Recommender
                 </LinkButton>
               </DivWrapper>
               <DivWrapper>
