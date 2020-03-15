@@ -10,6 +10,7 @@ import * as t from '../Typography';
 import { lighten, darken } from 'polished';
 import Helmet from 'react-helmet';
 import Avatar from '../images/avatar.jpg'
+import ProPic from '../images/pro-pic.png'
 
 const HeaderWrapper = styled.div`
   height: auto;
@@ -213,7 +214,7 @@ class Header extends React.Component {
         </Helmet>
         <ContentWrapper>
           <Logo href="/">
-            <img src={Avatar} alt="Name Surname" />
+            <img src={ProPic} alt="Name Surname" />
           </Logo>
           <HeaderNav>
             <Burger alt="Menu" onClick={this.handleBurgerClick} scrolled={scrolled} theme={theme}>
