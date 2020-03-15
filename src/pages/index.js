@@ -3,7 +3,6 @@ import styled from "styled-components";
 import * as Mixins from "../Mixins";
 import * as t from "../Typography";
 import Layout, { Content } from "../components/Layout";
-import Placeholder from "../images/placeholder.png";
 import C4ADS from "../images/c4ads.png";
 import Spotify from "../images/spotify.png";
 import { HireMe, LinkButton } from "../components/Button.js";
