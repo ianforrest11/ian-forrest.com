@@ -246,8 +246,13 @@ class Homepage extends React.Component {
               </DivWrapper>
               <DivWrapper>
                 <t.H2 bold>Russian Arms Exporter Profiler</t.H2>
-                <t.P>Center For Advanced Defense Studies</t.P>
-                <t.P>Contracted Project</t.P>
+                <t.P>
+                  Joint Project with the Center For Advanced Defense Studies
+                </t.P>
+                <t.P>
+                  Built text modeling product to detect unknown Russian arms
+                  exporters by analyzing trade data.
+                </t.P>
                 <LinkButton
                   primary
                   bold
@@ -293,10 +298,10 @@ class Homepage extends React.Component {
               </DivWrapper>
               <DivWrapper>
                 <t.H2 bold>Safe Routes</t.H2>
+                <t.P>Lambda School Data Science Project</t.P>
                 <t.P>
                   Group Project - Combined With Front End, Back End, Etc.
                 </t.P>
-                <t.P>Completed in four days</t.P>
                 <LinkButton
                   primary
                   bold
@@ -305,7 +310,7 @@ class Homepage extends React.Component {
                   target="_blank"
                   href="https://saferoute-visual.herokuapp.com/"
                 >
-                  Link to statistical analysis
+                  Statistical Analysis & Visualization
                 </LinkButton>
                 <br></br>
                 <LinkButton
@@ -316,7 +321,7 @@ class Homepage extends React.Component {
                   target="_blank"
                   href="https://fesafe-routes.acemouty.now.sh/routes"
                 >
-                  Link to main project
+                  Main Project
                 </LinkButton>
               </DivWrapper>
             </BlockContent>
@@ -325,8 +330,12 @@ class Homepage extends React.Component {
             <BlockContent>
               <DivWrapper>
                 <t.H2 bold>TwitOff</t.H2>
-                <t.P>Lorem ipsum</t.P>
-                <t.P>Dolor sit amet</t.P>
+                <t.P>Lambda School Data Science Project</t.P>
+                <t.P>
+                  A Twitter analysis product designed to showcase text analysis,
+                  modeling, database architecture, front-end development, and
+                  back-end development skills.
+                </t.P>
                 <LinkButton
                   primary
                   bold
