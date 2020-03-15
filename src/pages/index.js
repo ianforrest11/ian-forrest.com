@@ -13,7 +13,7 @@ import Colors from '../Colors';
 import Img from 'gatsby-image';
 import { graphql } from 'gatsby';
 import { darken } from 'polished';
-import { Container, Row, Col } from "react-bootstrap"
+// import { Container, Row, Col } from "react-bootstrap"
 
 const AboveFold = styled.div`
   ${Mixins.aboveFoldMixin}
@@ -169,7 +169,7 @@ class Homepage extends React.Component {
               Skills
             </t.H2>
             <t.P align="center" max70 className="who-desc">
-            <Container className="content" fluid>
+            {/* <Container className="content" fluid>
               <h3>Cool Recent Tech I use:</h3>
               <br />
               <Row className="text-center tech_icons">
@@ -195,7 +195,7 @@ class Homepage extends React.Component {
                 </Col>
               </Row>
               <br />
-            </Container>
+            </Container> */}
             </t.P>
             <t.H2 primary align="center" bold className="portfolio">
               Portfolio
