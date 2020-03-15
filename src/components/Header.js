@@ -10,7 +10,7 @@ import * as t from '../Typography';
 import { lighten, darken } from 'polished';
 import Helmet from 'react-helmet';
 import Avatar from '../images/avatar.jpg'
-import ProPic from '../images/pro-pic.png'
+import ProPic from '../images/propic.png'
 
 const HeaderWrapper = styled.div`
   height: auto;
