@@ -4,7 +4,8 @@ import * as Mixins from '../Mixins';
 import * as t from '../Typography';
 import Layout, { Content } from '../components/Layout';
 import Placeholder from '../images/placeholder.png';
-import C4ADS from '../images/c4ads.png'
+import C4ADS from '../images/c4ads.png';
+import Spotify from '../images/spotify.png';
 import { HireMe, LinkButton } from '../components/Button.js';
 import HireMePopup from '../components/HireMePopup.js';
 import { media } from '../MediaQueries';
@@ -188,8 +189,8 @@ class Homepage extends React.Component {
             <BlockContent>
               <DivWrapper>
                 <t.H2 bold>Spotify Song Recommender</t.H2>
-                <t.P>Data Science Project</t.P>
-                <t.P>Dolor sit amet</t.P>
+                <t.P>Lambda School Data Science Project</t.P>
+                <t.P>An API/Machine Learning product to recommend songs for individual Users</t.P>
                 <LinkButton primary bold className="link" as="a"
                   target="_blank"
                   href="https://spotirecer.herokuapp.com/">
@@ -197,7 +198,7 @@ class Homepage extends React.Component {
                 </LinkButton>
               </DivWrapper>
               <DivWrapper>
-                <ItemImage src={Placeholder} alt="Placeholder title" />
+                <ItemImage src={Spotify} alt="Placeholder title" />
               </DivWrapper>
             </BlockContent>
           </Block>
