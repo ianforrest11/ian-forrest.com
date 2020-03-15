@@ -199,11 +199,11 @@ class Homepage extends React.Component {
               I am currently a Data Science student at Lambda School, an
               accelerated full-time program, preparing for work in a Data
               Scientist or Data Engineering position. I have a background in
-              Software Project Management as well as several years in customer
-              facing accounting roles. My technical background and my team
-              setting background build upon my Data Science skills to prepare me
-              for working with a multi-faceted team or clients in a Data Science
-              position.
+              Software Project Management as well as several years in
+              client-facing accounting roles. My technical background and my
+              team setting background build upon my Data Science skills to
+              prepare me for working with a multi-faceted team or clients in a
+              Data Science position.
             </t.P>
             <t.H2 primary align="center" bold>
               Skills
