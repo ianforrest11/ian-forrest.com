@@ -191,7 +191,7 @@ class Homepage extends React.Component {
                 <t.P>Dolor sit amet</t.P>
                 <LinkButton primary bold className="link" as="a"
                   target="_blank"
-                  href="#">
+                  href="https://spotirecer.herokuapp.com/">
                   Spotify Song Recommender
                 </LinkButton>
               </DivWrapper>
