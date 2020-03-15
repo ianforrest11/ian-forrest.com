@@ -13,7 +13,6 @@ import Colors from '../Colors';
 import Img from 'gatsby-image';
 import { graphql } from 'gatsby';
 import { darken } from 'polished';
-import React from "react";
 import { Container, Row, Col } from "react-bootstrap"
 
 const AboveFold = styled.div`
