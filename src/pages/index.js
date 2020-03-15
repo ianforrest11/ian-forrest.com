@@ -332,7 +332,7 @@ class Homepage extends React.Component {
             <t.H1 green>Get in touch</t.H1>
             <t.LargeP>Please reach out for more info! </t.LargeP>
             <HireMe onClick={this.openContactPopup} book>
-              Contact me
+              Contact
             </HireMe>
           </WorkWithMe>
         </Layout>
