@@ -187,7 +187,7 @@ class Homepage extends React.Component {
             <BlockContent>
               <DivWrapper>
                 <t.H2 bold>Spotify Song Recommender</t.H2>
-                <t.P>Lorem ipsum</t.P>
+                <t.P>Data Science Project</t.P>
                 <t.P>Dolor sit amet</t.P>
                 <LinkButton primary bold className="link" as="a"
                   target="_blank"
