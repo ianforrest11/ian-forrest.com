@@ -1,37 +1,31 @@
 module.exports = {
   siteMetadata: {
-    title: `Crafty Co | Web Development`,
-    titleTemplate: "%s",
-    description: `We're on a mission to make the web beautiful.`,
-    image: "/logo.png",
-    twitterUsername: "@Simplecodehq",
-    siteUrl: "https://demos.simplecode.io/gatsby/crafty",
+    title: 'Name Surname - Portfolio'
   },
   plugins: [
-    `gatsby-plugin-react-helmet`,
-    `gatsby-transformer-json`,
+    'gatsby-plugin-react-helmet',
+    'gatsby-plugin-styled-components',
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `./src/data/`,
-      },
+        path: `${__dirname}/src/images`
+      }
     },
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
+    'gatsby-transformer-sharp',
+    'gatsby-plugin-sharp',
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
-        start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
-        display: `minimal-ui`,
-      },
-    },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
-  ],
-}
+        name: 'gatsby-starter-default',
+        short_name: 'starter',
+        start_url: '/',
+        background_color: '#f6f1ed',
+        theme_color: '#f6f1ed',
+        display: 'minimal-ui',
+        icon: 'src/images/favicon.png' // This path is relative to the root of the site.
+      }
+    }
+    // 'gatsby-plugin-offline',
+  ]
+};

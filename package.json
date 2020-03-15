@@ -1,26 +1,33 @@
 {
-  "name": "gatsby-crafty-theme",
-  "private": true,
-  "description": "A crafty gatsby theme.",
+  "name": "portfolio-website-gatsby",
+  "description": "Portfolio website built in Gatsby",
   "version": "1.0.0",
-  "author": "Simplecode <info@simplecode.io>",
+  "author": "Milos Lekovic <milos085@gmail.com>",
   "dependencies": {
-    "gatsby": "^2.13.51",
-    "gatsby-image": "^2.2.8",
-    "gatsby-plugin-manifest": "^2.2.4",
-    "gatsby-plugin-offline": "^2.2.4",
-    "gatsby-plugin-react-helmet": "^3.1.3",
-    "gatsby-plugin-sharp": "^2.2.9",
-    "gatsby-source-filesystem": "^2.1.8",
-    "gatsby-transformer-json": "^2.2.2",
-    "gatsby-transformer-sharp": "^2.2.5",
-    "prop-types": "^15.7.2",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-helmet": "^5.2.1"
+    "babel-plugin-styled-components": "^1.8.0",
+    "gatsby": "^2.0.40",
+    "gatsby-image": "^2.0.20",
+    "gatsby-plugin-manifest": "^2.0.7",
+    "gatsby-plugin-offline": "^2.0.12",
+    "gatsby-plugin-react-helmet": "^3.0.1",
+    "gatsby-plugin-sharp": "^2.0.12",
+    "gatsby-plugin-styled-components": "^3.0.1",
+    "gatsby-react-router-scroll": "^2.0.1",
+    "gatsby-source-filesystem": "^2.0.7",
+    "gatsby-transformer-sharp": "^2.1.8",
+    "husky": "^1.1.4",
+    "polished": "^2.3.0",
+    "pretty-quick": "^1.8.0",
+    "react": "^16.6.1",
+    "react-dom": "^16.6.1",
+    "react-helmet": "^5.2.0",
+    "styled-components": "^4.0.3",
+    "styled-props": "^1.1.2"
   },
-  "devDependencies": {
-    "prettier": "^1.18.2"
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
   },
   "keywords": [
     "gatsby"
@@ -29,16 +36,14 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
-    "start": "npm run develop",
-    "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+    "format": "prettier --write '**/*.js'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "prettier": "^1.15.1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/simplecode-io/gatsby-crafty-theme"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
   }
 }
