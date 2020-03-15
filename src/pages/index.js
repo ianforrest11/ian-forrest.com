@@ -157,7 +157,7 @@ class Homepage extends React.Component {
           </AboveFold>
           <Content>
             <t.H2 primary align="center" bold>
-              Lorem ipsum
+              Background
             </t.H2>
             <t.P align="center" max70 className="who-desc">
             Studied at Lambda School since June 2019.
