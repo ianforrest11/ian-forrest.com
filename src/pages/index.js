@@ -149,10 +149,10 @@ class Homepage extends React.Component {
               Ian Forrest
             </t.H1>
             <t.LargeP align="center" max45>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            New York City-based Data Scientist
             </t.LargeP>
             <HireMe large onClick={this.openContactPopup} book>
-              Hire me
+              Contact
             </HireMe>
           </AboveFold>
           <Content>
@@ -220,7 +220,7 @@ class Homepage extends React.Component {
           <Block>
             <BlockContent>
               <DivWrapper>
-                <t.H2 bold>Placeholder website</t.H2>
+                <t.H2 bold>TwitOff</t.H2>
                 <t.P>Lorem ipsum</t.P>
                 <t.P>Dolor sit amet</t.P>
                 <LinkButton primary bold className="link" as="a"
