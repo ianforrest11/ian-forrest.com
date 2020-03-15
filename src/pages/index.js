@@ -149,7 +149,7 @@ class Homepage extends React.Component {
               Ian Forrest
             </t.H1>
             <t.LargeP align="center" max45>
-            New York City-based Data Scientist
+            Former Accountant & Software Project Manager, Current Data Science Student, Future Data Scientist
             </t.LargeP>
             <HireMe large onClick={this.openContactPopup} book>
               Contact
