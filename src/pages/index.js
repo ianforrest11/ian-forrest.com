@@ -93,6 +93,15 @@ const ItemImage = styled.img`
   ${media.tablet`max-width: none;`}
 `;
 
+const ItemImageBorder = styled.img`
+  max-width: 85%;
+  position: relative;
+  object-fit: contain;
+  width: 100%;
+  border: solid 2px;
+  ${media.tablet`max-width: none;`}
+`;
+
 const HomepageWrapper = styled.div`
   ${Mixins.wrapper}
   .who-desc {
@@ -241,7 +250,7 @@ class Homepage extends React.Component {
           <Block>
             <BlockContent>
               <DivWrapper>
-                <ItemImage src={C4ADS} alt="Placeholder title" />
+                <ItemImageBorder src={C4ADS} alt="Placeholder title" />
               </DivWrapper>
               <DivWrapper>
                 <t.H2 bold>Russian Arms Exporter Profiler</t.H2>
@@ -286,14 +295,14 @@ class Homepage extends React.Component {
                 </LinkButton>
               </DivWrapper>
               <DivWrapper>
-                <ItemImage src={Spotify} alt="Placeholder title" />
+                <ItemImageBorder src={Spotify} alt="Placeholder title" />
               </DivWrapper>
             </BlockContent>
           </Block>
           <Block>
             <BlockContent>
               <DivWrapper>
-                <ItemImage src={SR} alt="Placeholder title" />
+                <ItemImageBorder src={SR} alt="Placeholder title" />
               </DivWrapper>
               <DivWrapper>
                 <t.H2 bold>Safe Routes</t.H2>
@@ -347,7 +356,7 @@ class Homepage extends React.Component {
                 </LinkButton>
               </DivWrapper>
               <DivWrapper>
-                <ItemImage src={Twitter} alt="Placeholder title" />
+                <ItemImageBorder src={Twitter} alt="Placeholder title" />
               </DivWrapper>
             </BlockContent>
           </Block>
