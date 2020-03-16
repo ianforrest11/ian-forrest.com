@@ -234,9 +234,9 @@ class Homepage extends React.Component {
                 </DivGridItem>
               </DivGrid>
             </t.P>
-            <t.H2 primary align="center" bold className="portfolio">
+            <t.H1 primary align="center" bold>
               Portfolio
-            </t.H2>
+            </t.H1>
           </Content>
           <Block>
             <BlockContent>
