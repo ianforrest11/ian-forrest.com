@@ -98,7 +98,7 @@ const ItemImageBorder = styled.img`
   position: relative;
   object-fit: contain;
   width: 100%;
-  border: solid 2px;
+  border: solid 1px;
   ${media.tablet`max-width: none;`}
 `;
 
