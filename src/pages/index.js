@@ -254,12 +254,15 @@ class Homepage extends React.Component {
               </DivWrapper>
               <DivWrapper>
                 <t.H2 bold>Russian Arms Exporter Profiler</t.H2>
+                <t.P>Natural Language Processing Product</t.P>
                 <t.P>
-                  Joint Project with the Center For Advanced Defense Studies
+                  <strong>Role:</strong> Project Lead, Data Science Lead
                 </t.P>
                 <t.P>
-                  Built text modeling product to detect unknown Russian arms
-                  exporters by analyzing trade data.
+                  <strong>Description:</strong> Contracted by Center for
+                  Advanced Defense Studies to build a text modeling product to
+                  detect unknown Russian arms exporters through trade data
+                  analysis.
                 </t.P>
                 <LinkButton
                   primary
@@ -269,7 +272,7 @@ class Homepage extends React.Component {
                   target="_blank"
                   href="https://github.com/ianforrest11/russian_arms_exporters"
                 >
-                  Russian Arms Exporter Profiler
+                  Link to GitHub repo
                 </LinkButton>
               </DivWrapper>
             </BlockContent>
@@ -277,11 +280,55 @@ class Homepage extends React.Component {
           <Block>
             <BlockContent>
               <DivWrapper>
-                <t.H2 bold>Spotify Song Recommender</t.H2>
-                <t.P>Lambda School Data Science Project</t.P>
+                <t.H2 bold>TwitOff</t.H2>
+                <t.P>Natural Language Processing Product</t.P>
                 <t.P>
-                  An API/Machine Learning product to recommend songs for
-                  individual Users
+                  <strong>Role:</strong> Solo Project, Data Science Lead,
+                  Front-End Designer, Back-End Designer, Product Designer
+                </t.P>
+                <t.P>
+                  <strong>Description:</strong> A Twitter analysis product
+                  designed to predict the likelihood a User will Tweet a given
+                  body of text.
+                </t.P>
+                <LinkButton
+                  primary
+                  bold
+                  className="link"
+                  as="a"
+                  target="_blank"
+                  href="https://ianforrest11-twitoff.herokuapp.com/"
+                >
+                  Link to project website
+                </LinkButton>
+                <br></br>
+                <LinkButton
+                  primary
+                  bold
+                  className="link"
+                  as="a"
+                  target="_blank"
+                  href="https://ianforrest11-twitoff.herokuapp.com/"
+                >
+                  Link to Github repo
+                </LinkButton>
+              </DivWrapper>
+              <DivWrapper>
+                <ItemImageBorder src={Twitter} alt="Placeholder title" />
+              </DivWrapper>
+            </BlockContent>
+          </Block>
+          <Block>
+            <BlockContent>
+              <DivWrapper>
+                <t.H2 bold>Spotify Song Recommender</t.H2>
+                <t.P>Machine Learning/API Product</t.P>
+                <t.P>
+                  <strong>Role:</strong> Data Science Lead
+                </t.P>
+                <t.P>
+                  <strong>Description:</strong> A machine learning product that
+                  recommends songs based on input data using Spotify's API.
                 </t.P>
                 <LinkButton
                   primary
@@ -291,7 +338,18 @@ class Homepage extends React.Component {
                   target="_blank"
                   href="https://spotirecer.herokuapp.com/"
                 >
-                  Spotify Song Recommender
+                  Link to project website
+                </LinkButton>
+                <br></br>
+                <LinkButton
+                  primary
+                  bold
+                  className="link"
+                  as="a"
+                  target="_blank"
+                  href="https://github.com/ianforrest11/Spotify_API_Interface"
+                >
+                  Link to GitHub repo
                 </LinkButton>
               </DivWrapper>
               <DivWrapper>
@@ -306,9 +364,13 @@ class Homepage extends React.Component {
               </DivWrapper>
               <DivWrapper>
                 <t.H2 bold>Safe Routes</t.H2>
-                <t.P>Lambda School Data Science Project</t.P>
+                <t.P>Lambda School Group Project</t.P>
                 <t.P>
-                  Group Project - Combined With Front End, Back End, Etc.
+                  <strong>Role:</strong> Data Science team member
+                </t.P>
+                <t.P>
+                  <strong>Description:</strong>A safety product designed to
+                  predict the likelihood of an accident at a given intersection.
                 </t.P>
                 <LinkButton
                   primary
@@ -318,7 +380,7 @@ class Homepage extends React.Component {
                   target="_blank"
                   href="https://saferoute-visual.herokuapp.com/"
                 >
-                  Statistical Analysis & Visualization
+                  Link to statistical analysis and visualization
                 </LinkButton>
                 <br></br>
                 <LinkButton
@@ -329,40 +391,14 @@ class Homepage extends React.Component {
                   target="_blank"
                   href="https://fesafe-routes.acemouty.now.sh/routes"
                 >
-                  Main Project
+                  Link to project website
                 </LinkButton>
-              </DivWrapper>
-            </BlockContent>
-          </Block>
-          <Block>
-            <BlockContent>
-              <DivWrapper>
-                <t.H2 bold>TwitOff</t.H2>
-                <t.P>Lambda School Data Science Project</t.P>
-                <t.P>
-                  A Twitter analysis product designed to showcase text analysis,
-                  modeling, database architecture, front-end development, and
-                  back-end development skills.
-                </t.P>
-                <LinkButton
-                  primary
-                  bold
-                  className="link"
-                  as="a"
-                  target="_blank"
-                  href="https://ianforrest11-twitoff.herokuapp.com/"
-                >
-                  TwitOff!
-                </LinkButton>
-              </DivWrapper>
-              <DivWrapper>
-                <ItemImageBorder src={Twitter} alt="Placeholder title" />
               </DivWrapper>
             </BlockContent>
           </Block>
           <WorkWithMe>
             <t.H1 green>Get in touch</t.H1>
-            <t.LargeP>Please reach out for more info! </t.LargeP>
+            <t.LargeP>Please reach out for more info!</t.LargeP>
             <HireMe onClick={this.openContactPopup} book>
               Contact
             </HireMe>

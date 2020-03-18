@@ -84,25 +84,23 @@ class AboutMe extends React.Component {
         <Layout theme="white" openContactPopup={this.openContactPopup}>
           <AboveFold>
             <t.H1 green align="center">
-              Ian Forrest - Data Scientist
+              About Me
             </t.H1>
             <t.LargeP align="left" max70>
-              I'm Ian, a music-loving workout enthusiast aspiring to be a data
-              scientist! Currently, I attend Lambda School as a student.
+              I'm Ian, a music-loving traveller aspiring to become a data
+              scientist! I'm currently a student at Lambda School, and have
+              worked as a Big Four Accountant and software project manager in
+              past lives.
             </t.LargeP>
             <t.LargeP align="left" max70>
-              My specialties include data exploration & visualization,
-              statistical analysis, predictive modeling, data engineering, deep
-              learning, neural networks, data analysis, linear and multivariate
-              regressions, predictive analytics, big data analytics, natural
-              language processing (NLP), data mining, data wrangling, web
+              My specialties include natural language processing (NLP), data
+              exploration & visualization, statistical analysis, predictive
+              modeling, data engineering, deep learning, neural networks, data
+              analysis, linear and multivariate regressions, predictive
+              analytics, big data analytics, data mining, data wrangling, web
               scraping, ETL pipelines, API deployment, model tuning, unit tests,
               and agile development (CI/CD), quickly learning new skills,
               working well under pressure, leadership.
-            </t.LargeP>
-            <t.LargeP align="left" max70>
-              To view my latest projects, please scroll down to the bottom of
-              the homepage.
             </t.LargeP>
           </AboveFold>
           <Content>
