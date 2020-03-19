@@ -308,7 +308,7 @@ class Homepage extends React.Component {
                   className="link"
                   as="a"
                   target="_blank"
-                  href="https://ianforrest11-twitoff.herokuapp.com/"
+                  href="https://github.com/ianforrest11/TwitOff"
                 >
                   Link to Github repo
                 </LinkButton>
