@@ -104,7 +104,7 @@ class HireMePopup extends React.Component {
             primary
             bold
             target="_blank"
-            href="https://github.com/ianforrest11"
+            href="https://github.com/ianforrest11?tab=stars"
           >
             <img src={GH} alt="Your GitHub profile" />
           </Link>
