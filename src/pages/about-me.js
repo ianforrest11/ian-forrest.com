@@ -115,8 +115,8 @@ class AboutMe extends React.Component {
               working well under pressure, leadership.
             </t.LargeP>
             <t.LargeP align="left" max70>
-              In past lives I have worked as a software project manager and a
-              Big Four tax accountant.
+              In past lives, I've worked as a software project manager and a Big
+              Four tax accountant.
             </t.LargeP>
           </AboveFold>
           <Content>

@@ -207,7 +207,7 @@ class Homepage extends React.Component {
             </t.H2>
             <t.P align="center" max70 className="who-desc">
               I recently graduated from Lambda School's accelerated full-time
-              Data Science program , preparing for work in a Data Scientist or
+              Data Science program, preparing for work in a Data Scientist or
               Data Engineering position. I have a background in Software Project
               Management as well as several years in client-facing accounting
               roles. My technical background and my team setting background
