@@ -98,7 +98,7 @@ class AboutMe extends React.Component {
               regression, hypothesis testing, and storytelling with data
               <br></br>- Gained hands-on experience engaging with machine
               learning; able to understand unsupervised learning, natural
-              language and neural networks.
+              language and neural networks
               <br></br>- Completed a deep dive into Data Engineering, worked
               with databases, productization and big data.
               <br></br>- Served as a data scientist on a ready to deploy
