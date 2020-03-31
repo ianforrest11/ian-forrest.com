@@ -193,9 +193,8 @@ class Homepage extends React.Component {
             <t.H1 primary align="center">
               Ian Forrest
             </t.H1>
-            <t.LargeP align="center" max45>
-              Data Scientist, Former Accountant & Software Project Manager,
-              Current Data Science Student
+            <t.LargeP align="center" max80>
+              Data Scientist, Former Accountant & Software Project Manager
             </t.LargeP>
             <HireMe large onClick={this.openContactPopup} book>
               Contact
