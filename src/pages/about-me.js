@@ -87,7 +87,7 @@ class AboutMe extends React.Component {
               Additional Information
             </t.H1>
             <t.LargeP align="left" max70>
-              I'm Ian, a music-loving data scientist based in New York City!
+              I'm Ian, a travel-loving data scientist based in New York City!
               <br></br>
               <br></br>I recently graduated from Lambda School, a 9+ month
               full-time Computer Science & Software Engineering Academy that
@@ -106,14 +106,15 @@ class AboutMe extends React.Component {
               mobile developers to bring the project to fruition
             </t.LargeP>
             <t.LargeP align="left" max70>
-              My specialties include natural language processing (NLP), data
-              exploration & visualization, statistical analysis, predictive
-              modeling, data engineering, deep learning, neural networks, data
-              analysis, linear and multivariate regressions, predictive
-              analytics, big data analytics, data mining, data wrangling, web
-              scraping, ETL pipelines, API deployment, model tuning, unit tests,
-              and agile development (CI/CD), quickly learning new skills,
-              working well under pressure, leadership.
+              My specialties include natural language processing (NLP), text
+              vectorization, data exploration & visualization, statistical
+              analysis, predictive modeling, data engineering, deep learning,
+              neural networks, data analysis, linear and multivariate
+              regressions, predictive analytics, big data analytics, data
+              mining, data wrangling, web scraping, ETL pipelines, API
+              deployment, model tuning, unit tests, and agile development
+              (CI/CD), quickly learning new skills, working well under pressure,
+              leadership.
             </t.LargeP>
             <t.LargeP align="left" max70>
               In past lives, I've worked as a software project manager and a Big
