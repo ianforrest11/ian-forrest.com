@@ -87,10 +87,24 @@ class AboutMe extends React.Component {
               Additional Information
             </t.H1>
             <t.LargeP align="left" max70>
-              I'm Ian, a music-loving traveller aspiring to become a data
-              scientist! I'm currently a student at Lambda School, and have
-              worked as a Big Four Accountant and software project manager in
-              past lives.
+              I'm Ian, a music-loving data scientist based in New York City! I
+              just graduated from Lambda School, a 9+ month full-time Computer
+              Science & Software Engineering Academy that provides an immersive
+              hands-on curriculum with a track focused on Data Science:
+              <br></br>- Developed a solid foundation of descriptive and
+              predictive statistics, including: linear algebra, linear
+              regression, hypothesis testing, and storytelling with data
+              <br></br>- Gained hands-on experience engaging with machine
+              learning; able to understand unsupervised learning, natural
+              language and neural networks.
+              <br></br>- Completed a deep dive into Data Engineering, worked
+              with databases, productization and big data.
+              <br></br>- Served as a data scientist on a ready to deploy
+              project, working alongside UX designers, web developers, and
+              mobile developers to bring the project to fruition
+              <br></br>
+              In past lives I have worked as a software project manager and a
+              Big Four tax accountant.
             </t.LargeP>
             <t.LargeP align="left" max70>
               My specialties include natural language processing (NLP), data
