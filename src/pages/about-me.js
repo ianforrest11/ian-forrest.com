@@ -88,11 +88,12 @@ class AboutMe extends React.Component {
             </t.H1>
             <t.LargeP align="left" max70>
               I'm Ian, a music-loving data scientist based in New York City! I
-              just graduated from Lambda School, a 9+ month full-time Computer
-              Science & Software Engineering Academy that provides an immersive
-              hands-on curriculum with a track focused on Data Science:
+              recently graduated from Lambda School, a 9+ month full-time
+              Computer Science & Software Engineering Academy that provides an
+              immersive hands-on curriculum with a track focused on Data
+              Science:
               <br></br>- Developed a solid foundation of descriptive and
-              predictive statistics, including: linear algebra, linear
+              predictive statistics, including linear algebra, linear
               regression, hypothesis testing, and storytelling with data
               <br></br>- Gained hands-on experience engaging with machine
               learning; able to understand unsupervised learning, natural
@@ -102,9 +103,6 @@ class AboutMe extends React.Component {
               <br></br>- Served as a data scientist on a ready to deploy
               project, working alongside UX designers, web developers, and
               mobile developers to bring the project to fruition
-              <br></br>
-              In past lives I have worked as a software project manager and a
-              Big Four tax accountant.
             </t.LargeP>
             <t.LargeP align="left" max70>
               My specialties include natural language processing (NLP), data
@@ -115,6 +113,10 @@ class AboutMe extends React.Component {
               scraping, ETL pipelines, API deployment, model tuning, unit tests,
               and agile development (CI/CD), quickly learning new skills,
               working well under pressure, leadership.
+            </t.LargeP>
+            <t.LargeP align="left" max70>
+              In past lives I have worked as a software project manager and a
+              Big Four tax accountant.
             </t.LargeP>
           </AboveFold>
           <Content>
